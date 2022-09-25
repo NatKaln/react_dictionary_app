@@ -8,6 +8,9 @@ function App() {
         {" "}
         <img src={logo} className="App-logo" alt="logo" />
       </header>
+      <a href="/" className="btn btn-primary">
+        Hello
+      </a>
     </div>
   );
 }
