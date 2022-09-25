@@ -1,16 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {" "}
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <a href="/" className="btn btn-primary">
-        Hello
-      </a>
+      <div className="container">
+        <header className="App-header">
+          {" "}
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">Coded by Nat Kalnytska</footer>
+      </div>
     </div>
   );
 }
