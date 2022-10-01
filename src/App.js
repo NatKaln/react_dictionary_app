@@ -12,9 +12,9 @@ function App() {
         </header>
 
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyWord="sunset" />
         </main>
-        <footer className="text-center">Coded by Nat Kalnytska</footer>
+        <footer className="App-footer">Coded by Nat Kalnytska</footer>
       </div>
     </div>
   );
